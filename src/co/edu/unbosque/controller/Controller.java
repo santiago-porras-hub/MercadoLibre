@@ -11,7 +11,8 @@ public class Controller {
 	public Controller() {
 		
 		int idUsuario = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese Id de Usuario"));
-		usu.cambiarSaldo(idUsuario);		
+		usu.cambiarSaldo(idUsuario);
+		System.out.println("Operacion finalizada");
 	}
 	
 }
